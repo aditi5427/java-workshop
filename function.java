@@ -38,11 +38,9 @@ class function {
         for (int i = 1; i <= 5; i++) {
             int res = square(i);
             System.out.println("square is " + res);
-
         }
 
-            int cd = div(8, 2);
-            System.out.println(cd);
+        int cd = div(8, 2);
+        System.out.println(cd);
     }
-
 }
