@@ -1,10 +1,23 @@
 class pattern3 {
     public static void main (String args[]) {
+        /*
+            printing pattern
+            *
+            **
+            ***
+            ****
+            *****
+            *****
+            ****
+            ***
+            **
+            *
+        */
     
         int n = 8;
       
         for(int k = 1; k<=9; k++) {
-        for (int l = 1; l<=k ; l++) {
+            for (int l = 1; l<=k ; l++) {
                 System.out.print("*");
             }
             System.out.println(" ");
